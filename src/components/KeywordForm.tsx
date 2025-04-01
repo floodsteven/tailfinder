@@ -1,7 +1,5 @@
 'use client';
 
-import { useState } from 'react';
-
 interface KeywordFormProps {
   onSubmit: (keywords: string[]) => void;
   isLoading: boolean;
